@@ -3,17 +3,7 @@ import types from '../actions/types';
 let list = localStorage.getItem('noteList')
 
 const initialState = {
-    noteList: list ? JSON.parse(list) : [
-            {
-            id:0,
-            noteTitle:'',
-            tasks:[{
-                id:0,
-                body:'',
-                isDone:false
-            }]
-        }
-    ],
+    noteList: list ? JSON.parse(list) : [],
 }
 
 function reducer(state = initialState,action){
