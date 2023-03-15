@@ -1,0 +1,29 @@
+.form {
+    width:100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 ;
+}
+
+.form__input {
+    width: 300px;
+    padding: 5px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    
+}
+
+.form__button{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    color:#fff;
+    font-weight: 600;
+    padding: 10px 20px;
+    background-color: blueviolet;
+}

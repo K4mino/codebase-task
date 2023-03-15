@@ -1,0 +1,8 @@
+const types = {
+    SET_NOTELIST:'SET_NOTELIST',
+    ADD_TASK_TO_NOTE:'ADD_TASK_TO_NOTE',
+    DELETE_TASK_FROM_NOTE:'DELETE_TASK_FROM_NOTE',
+    MARK_TASK_DONE:'MARK_TASK_DONE'
+}
+
+export default types;
